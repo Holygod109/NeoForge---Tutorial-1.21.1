@@ -38,9 +38,6 @@ public static final DeferredBlock<Block> BLACK_OPAL_NETHER_ORE = registerBlock("
 
 
 
-
-
-
     private static <T extends Block>DeferredBlock<T> registerBlock(String name, Supplier<T> block){
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
