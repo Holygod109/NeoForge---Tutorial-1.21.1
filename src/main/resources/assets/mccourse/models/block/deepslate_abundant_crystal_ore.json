@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+    "textures": {
+      "all": "mccourse:block/deepslate_abundant_crystal_ore"
+  }
+}

@@ -1,11 +1,6 @@
 {
   "item.mccourse.black_opal": "Black Opal",
   "item.mccourse.raw_black_opal": "Raw Black Opal",
-  "item.mccourse.void_crystal": "Void Crystal",
-  "item.mccourse.space_crystal": "Space Crystal",
-  "item.mccourse.abundant_crystal": "Abundant Crystal",
-  "item.mccourse.soul_crystal": "Soul Crystal",
-  "item.mccourse.time_crystal": "Time Crystal",
 
   "block.mccourse.black_opal_block": "Block of Black Opal",
   "block.mccourse.raw_black_opal_block": "Block of Raw Black Opal",
@@ -16,9 +11,41 @@
 
 
 
+
+
+
+  "item.mccourse.void_crystal": "Void Crystal",
+  "item.mccourse.space_crystal": "Space Crystal",
+  "item.mccourse.abundant_crystal": "Abundant Crystal",
+  "item.mccourse.soul_crystal": "Soul Crystal",
+  "item.mccourse.time_crystal": "Time Crystal",
+
+  "block.mccourse.abundant_crystal_ore": "Abundant Crystal Ore",
+  "block.mccourse.deepslate_abundant_crystal_ore": "Deepslate Abundant Crystal Ore",
+  "block.mccourse.void_crystal_ore": "Void Crystal Ore",
+  "block.mccourse.deepslate_void_crystal_ore": "Deepslate Void Crystal Ore",
+  "block.mccourse.space_crystal_ore": "Space crystal ore",
+  "block.mccourse.deepslate_space_crystal_ore": "Deepslate Space Crystal Ore",
+  "block.mccourse.soul_crystal_ore": "Soul Crystal Ore",
+  "block.mccourse.deepslate_soul_crystal_ore": "Deepslate Soul Crystal Ore",
+  "block.mccourse.time_crystal_ore": "Time Crystal Ore",
+  "block.mccourse.deepslate_time_crystal_ore": "Deepslate Time Crystal Ore",
+
+
+
+
+
+
+
+
+
   "itemGroup.mccourse.black_opal_items_tab": "Black Opal Items",
   "itemGroup.mccourse.black_opal_blocks_tab": "Black Opal Blocks",
-  "itemGroup.mccourse.void_crystal_items_tab": "Crystals"
+  "itemGroup.mccourse.void_crystal_items_tab": "Crystals",
+  "itemGroup.mccourse.void_crystal_blocks_tab": "Crystals Blocks and Ores"
+
+
+
 
 
 }

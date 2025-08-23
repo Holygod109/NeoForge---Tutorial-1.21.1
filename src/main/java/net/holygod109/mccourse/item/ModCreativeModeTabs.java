@@ -55,6 +55,23 @@ public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
                         pOutput.accept(ModItems.TIME_CRYSTAL);
                     }).build());
 
+    public static final Supplier<CreativeModeTab>VOID_CRYSTAL_BLOCKS_TAB =
+            CREATIVE_MODE_TABS.register("void_crystal_blocks_tab", () -> CreativeModeTab.builder()
+                    .title(Component.translatable("itemGroup.mccourse.void_crystal_blocks_tab"))
+                    .icon(() -> new ItemStack(ModBlocks.ABUNDANT_CRYSTAL_ORE.get()))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModBlocks.ABUNDANT_CRYSTAL_ORE);
+                        pOutput.accept(ModBlocks.DEEPSLATE_ABUNDANT_CRYSTAL_ORE);
+                        pOutput.accept(ModBlocks.SOUL_CRYSTAL_ORE);
+                        pOutput.accept(ModBlocks.DEEPSLATE_SOUL_CRYSTAL_ORE);
+                        pOutput.accept(ModBlocks.SPACE_CRYSTAL_ORE);
+                        pOutput.accept(ModBlocks.DEEPSLATE_SPACE_CRYSTAL_ORE);
+                        pOutput.accept(ModBlocks.TIME_CRYSTAL_ORE);
+                        pOutput.accept(ModBlocks.DEEPSLATE_TIME_CRYSTAL_ORE);
+                        pOutput.accept(ModBlocks.VOID_CRYSTAL_ORE);
+                        pOutput.accept(ModBlocks.DEEPSLATE_VOID_CRYSTAL_ORE);
+                    }).build());
+
 
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
