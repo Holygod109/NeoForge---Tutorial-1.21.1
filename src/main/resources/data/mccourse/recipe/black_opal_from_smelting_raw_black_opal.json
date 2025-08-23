@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.25,
   "group": "black_opal",
-  "ingredients": {
+  "ingredient": {
     "item": "mccourse:raw_black_opal"
   },
   "result": {
