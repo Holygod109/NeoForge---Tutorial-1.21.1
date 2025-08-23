@@ -35,6 +35,24 @@ public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.BLACK_OPAL_BLOCK);
                         pOutput.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
+
+                        pOutput.accept(ModBlocks.BLACK_OPAL_ORE);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_END_ORE);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_NETHER_ORE);
+                    }).build());
+
+
+    public static final Supplier<CreativeModeTab>VOID_CRYSTAL_ITEMS_TAB =
+            CREATIVE_MODE_TABS.register("void_crystal_item_tab", () -> CreativeModeTab.builder()
+                    .title(Component.translatable("itemGroup.mccourse.void_crystal_items_tab"))
+                    .icon(() -> new ItemStack(ModItems.VOID_CRYSTAL.get()))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.VOID_CRYSTAL);
+                        pOutput.accept(ModItems.ABUNDANT_CRYSTAL);
+                        pOutput.accept(ModItems.SPACE_CRYSTAL);
+                        pOutput.accept(ModItems.SOUL_CRYSTAL);
+                        pOutput.accept(ModItems.TIME_CRYSTAL);
                     }).build());
 
 

@@ -13,6 +13,13 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_BLACK_OPAL =
             ITEMS.registerItem("raw_black_opal", Item::new, new Item.Properties());
 
+    public static final DeferredItem<Item> VOID_CRYSTAL = ITEMS.registerSimpleItem("void_crystal");
+    public static final DeferredItem<Item> SPACE_CRYSTAL = ITEMS.registerSimpleItem("space_crystal");
+    public static final DeferredItem<Item> ABUNDANT_CRYSTAL = ITEMS.registerSimpleItem("abundant_crystal");
+    public static final DeferredItem<Item> SOUL_CRYSTAL = ITEMS.registerSimpleItem("soul_crystal");
+    public static final DeferredItem<Item> TIME_CRYSTAL = ITEMS.registerSimpleItem("time_crystal");
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
