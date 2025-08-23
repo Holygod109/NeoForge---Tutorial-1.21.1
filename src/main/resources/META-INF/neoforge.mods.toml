@@ -21,7 +21,7 @@ license="${mod_license}"
 [[mods]] #mandatory
 
 # The modid of the mod
-modId="${mod_id}" #mandatory
+modId="mccourse" #mandatory
 
 # The version number of the mod
 version="${mod_version}" #mandatory
@@ -62,7 +62,7 @@ description='''${mod_description}'''
 [[dependencies.${mod_id}]] #optional
     # the modid of the dependency
     modId="neoforge" #mandatory
-    # The type of the dependency. Can be one of "required", "optional", "incompatible" or "discouraged" (case-insensitive).
+    # The type of the dependency. Can be one of "required", "optional", "incompatible" or "discouraged" (case insensitive).
     # 'required' requires the mod to exist, 'optional' does not
     # 'incompatible' will prevent the game from loading when the mod exists, and 'discouraged' will show a warning
     type="required" #mandatory
