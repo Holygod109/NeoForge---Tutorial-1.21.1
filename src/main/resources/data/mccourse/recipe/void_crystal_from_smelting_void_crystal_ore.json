@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "crystal",
+  "ingredient": {
+    "item": "mccourse:void_crystal_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "mccourse:void_crystal"
+  }
+}

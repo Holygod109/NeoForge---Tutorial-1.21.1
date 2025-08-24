@@ -1,6 +1,11 @@
 {
   "values": [
     "mccourse:black_opal_ore",
-    "mccourse:black_opal_deepslate_ore"
+    "mccourse:black_opal_deepslate_ore",
+    "mccourse:abundant_crystal_ore",
+    "mccourse:void_crystal_ore",
+    "mccourse:time_crystal_ore",
+    "mccourse:soul_crystal_ore",
+    "mccourse:space_crystal_ore"
   ]
 }

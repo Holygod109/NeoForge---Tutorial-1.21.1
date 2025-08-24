@@ -53,6 +53,7 @@ public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
                         pOutput.accept(ModItems.SPACE_CRYSTAL);
                         pOutput.accept(ModItems.SOUL_CRYSTAL);
                         pOutput.accept(ModItems.TIME_CRYSTAL);
+                        pOutput.accept(ModItems.AZURE_SHARD);
                     }).build());
 
     public static final Supplier<CreativeModeTab>VOID_CRYSTAL_BLOCKS_TAB =

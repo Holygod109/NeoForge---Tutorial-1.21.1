@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "crystal",
+  "ingredient": {
+    "item": "mccourse:deepslate_abundant_crystal_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "mccourse:abundant_crystal"
+  }
+}

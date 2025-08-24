@@ -18,6 +18,7 @@ public class ModItems {
     public static final DeferredItem<Item> ABUNDANT_CRYSTAL = ITEMS.registerSimpleItem("abundant_crystal");
     public static final DeferredItem<Item> SOUL_CRYSTAL = ITEMS.registerSimpleItem("soul_crystal");
     public static final DeferredItem<Item> TIME_CRYSTAL = ITEMS.registerSimpleItem("time_crystal");
+    public static final DeferredItem<Item> AZURE_SHARD = ITEMS.registerSimpleItem("azure_shard");
 
 
     public static void register(IEventBus eventBus){

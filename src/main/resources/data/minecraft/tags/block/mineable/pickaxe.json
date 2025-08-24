@@ -5,6 +5,16 @@
     "mccourse:black_opal_ore",
     "mccourse:black_opal_deepslate_ore",
     "mccourse:black_opal_end_ore",
-    "mccourse:black_opal_nether_ore"
+    "mccourse:black_opal_nether_ore",
+    "mccourse:abundant_crystal_ore",
+    "mccourse:deepslate_abundant_crystal_ore",
+    "mccourse:void_crystal_ore",
+    "mccourse:deepslate_void_crystal_ore",
+    "mccourse:time_crystal_ore",
+    "mccourse:deepslate_time_crystal_ore",
+    "mccourse:soul_crystal_ore",
+    "mccourse:deepslate_soul_crystal_ore",
+    "mccourse:space_crystal_ore",
+    "mccourse:deepslate_space_crystal_ore"
   ]
 }

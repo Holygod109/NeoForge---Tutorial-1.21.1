@@ -1,6 +1,11 @@
 {
   "values": [
     "mccourse:black_opal_end_ore",
-    "mccourse:black_opal_nether_ore"
+    "mccourse:black_opal_nether_ore",
+    "mccourse:deepslate_abundant_crystal_ore",
+    "mccourse:deepslate_void_crystal_ore",
+    "mccourse:deepslate_time_crystal_ore",
+    "mccourse:deepslate_soul_crystal_ore",
+    "mccourse:deepslate_space_crystal_ore"
   ]
 }

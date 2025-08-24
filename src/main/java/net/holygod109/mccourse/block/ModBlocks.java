@@ -38,34 +38,34 @@ public class ModBlocks {
 
 //My own experiments
     public static final DeferredBlock<Block> VOID_CRYSTAL_ORE = registerBlock("void_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
  public static final DeferredBlock<Block> DEEPSLATE_VOID_CRYSTAL_ORE= registerBlock("deepslate_void_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(4, 8),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
  public static final DeferredBlock<Block> TIME_CRYSTAL_ORE = registerBlock("time_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
  public static final DeferredBlock<Block> DEEPSLATE_TIME_CRYSTAL_ORE = registerBlock("deepslate_time_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(4, 8),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
  public static final DeferredBlock<Block> SOUL_CRYSTAL_ORE = registerBlock("soul_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
  public static final DeferredBlock<Block> DEEPSLATE_SOUL_CRYSTAL_ORE = registerBlock("deepslate_soul_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(4, 8),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
  public static final DeferredBlock<Block> ABUNDANT_CRYSTAL_ORE = registerBlock("abundant_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
  public static final DeferredBlock<Block> DEEPSLATE_ABUNDANT_CRYSTAL_ORE = registerBlock("deepslate_abundant_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(4, 8),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
  public static final DeferredBlock<Block> SPACE_CRYSTAL_ORE = registerBlock("space_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(3, 6),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
  public static final DeferredBlock<Block> DEEPSLATE_SPACE_CRYSTAL_ORE = registerBlock("deepslate_space_crystal_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 7),
+            () -> new DropExperienceBlock(UniformInt.of(4, 8),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
 
 
